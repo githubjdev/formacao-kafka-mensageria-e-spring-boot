@@ -1,0 +1,15 @@
+{
+    "type": "record",
+    "namespace": "br.com.rocha.avro",
+    "name": "Boleto",
+    "fields": [
+        {
+            "name": "codigoBarras",
+            "type": "string"
+        },
+        {
+            "name": "situacaoBoleto",
+            "type": "int"
+        }
+    ]
+}
